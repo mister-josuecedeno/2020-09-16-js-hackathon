@@ -1,17 +1,17 @@
-// Required HTML Elements
-const markdownArea = document.querySelector('#markdown');
+// Set editor
+const editor = ace.edit('editor');
+editor.setTheme('ace/theme/twilight');
+editor.session.setMode('ace/mode/markdown');
+
 const previewArea = document.querySelector('#preview');
 let result = '';
 
 // Call MarkdownIT
 const md = window.markdownit();
-hljs.initHighlightingOnLoad();
-// console.log(md);
-// console.log(hljs);
 
 function handleChange() {
   // Retrieve markdown and render html
-  let text = markdownArea.textContent;
+  let text = editor.getValue();
   result = md.render(text);
 
   // Send converted markdown to the Preview
@@ -19,4 +19,4 @@ function handleChange() {
 }
 
 // Event Listeners
-markdownArea.addEventListener('input', handleChange);
+editor.session.on('change', handleChange);
