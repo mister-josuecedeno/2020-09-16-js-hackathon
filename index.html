@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mark Down IT</title>
+
+    <!-- Highlightjs.org -->
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/styles/default.min.css"
+    />
+  </head>
+  <body>
+    <!-- Area for markdown -->
+    <h3>Markdown Area</h3>
+
+    <pre><code class='language-markdown' contenteditable="true" class="markdown" id="markdown"></code></pre>
+
+    <!-- Area for Result -->
+    <h3>Preview</h3>
+    <div class="preview" id="preview"></div>
+
+    <!-- Markdown IT CDN -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/11.0.1/markdown-it.min.js"
+      integrity="sha512-hW0KbtvDnXCHbh2UCNP/6R+oXxCKiOfm9ciuUekdGBCQF1+57bGqZAk3sAFir7PMQstyRW0UecsSc2HQotH2vg=="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Hightlightjs.org -->
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/highlight.min.js"></script>
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+
+    <script src="index.js"></script>
+  </body>
+</html>
