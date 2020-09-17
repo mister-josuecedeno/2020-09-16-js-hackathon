@@ -1,32 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mark Down IT</title>
 
     <!-- Highlightjs.org -->
-    <link
-      rel="stylesheet"
-      href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/styles/default.min.css"
-    />
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/styles/default.min.css" />
   </head>
+
   <body>
     <!-- Area for markdown -->
     <h3>Markdown Area</h3>
 
-    <pre><code class='language-markdown' contenteditable="true" class="markdown" id="markdown"></code></pre>
+    <!-- This is where I want to put in my markdown  -->
+    <textarea id="markdown">
+
+    </textarea>
+
+    <!-- Just looking to highlight the preview, so I commented out this-->
+    <!-- <pre><code contenteditable="true" class="markdown" id="markdown">
+      # hello world
+
+      you can write text [with links](http://example.com) inline or [link references][1].
+      
+      * one _thing_ has *em*phasis
+      * two __things__ are **bold**
+      
+      [1]: http://example.com
+      
+      ---
+      
+      hello world
+      ===========
+      
+      <this_is inline="xml"></this_is>
+      
+      > markdown is so cool
+      
+          so are code segments
+      
+      1. one thing (yeah!)
+      2. two thing `i can write code`, and `more` wipee!
+    </code></pre> -->
 
     <!-- Area for Result -->
     <h3>Preview</h3>
     <div class="preview" id="preview"></div>
 
     <!-- Markdown IT CDN -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/11.0.1/markdown-it.min.js"
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/markdown-it/11.0.1/markdown-it.min.js"
       integrity="sha512-hW0KbtvDnXCHbh2UCNP/6R+oXxCKiOfm9ciuUekdGBCQF1+57bGqZAk3sAFir7PMQstyRW0UecsSc2HQotH2vg=="
-      crossorigin="anonymous"
-    ></script>
+      crossorigin="anonymous"></script>
 
     <!-- Hightlightjs.org -->
     <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.0/build/highlight.min.js"></script>
@@ -36,4 +62,5 @@
 
     <script src="index.js"></script>
   </body>
+
 </html>
