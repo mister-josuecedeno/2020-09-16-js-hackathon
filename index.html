@@ -89,15 +89,15 @@
       <div class="collapse" id="collapseExample">
         <br />
         <p class=".mt-1">
-          Try some of the following to get started. Please feel free to contact
-          me via LinkedIn with any questions. You can find more example at
+          To get started, click on line 1 of the input area below. Next, type a
+          hash tag followed by a space and anything you would like to type.
+        </p>
+        <p>
+          Please feel free to contact me via LinkedIn with any questions. You
+          can find more example at
           <a href="https://www.markdownguide.org/basic-syntax/" target="_blank"
             >Markdown Guide</a
           >
-        </p>
-        <p>
-          Pro tip: Make sure to leave a space between the hashtag and the text
-          :)
         </p>
 
         <!-- Add a table here -->
@@ -140,17 +140,36 @@
         <div class="col">
           <!-- EDITOR -->
 
-          <h1>INPUT AREA</h1>
+          <h2>INPUT</h2>
           <!-- Input Area using ACE -->
           <pre id="editor"></pre>
         </div>
       </div>
 
-      <!-- PREVIEW -->
       <div class="row">
         <div class="col">
+          <p>
+            <a
+              class="btn btn-primary"
+              data-toggle="collapse"
+              href="#previewContainer"
+              role="button"
+              aria-expanded="false"
+              aria-controls="previewContainer"
+              id="btnTogglePreview"
+            >
+              Toggle Preview
+            </a>
+          </p>
+        </div>
+      </div>
+
+      <!-- OUTPUT AREA -->
+      <div class="row collapse" id="previewContainer">
+        <div class="col">
           <!-- PREVIEW -->
-          <h1>OUTPUT AREA</h1>
+
+          <h2>OUTPUT</h2>
           <div id="preview"></div>
         </div>
       </div>

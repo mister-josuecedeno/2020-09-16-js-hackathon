@@ -20,4 +20,15 @@ body {
 
 #preview {
   background: whitesmoke;
+  height: 150px;
+}
+
+@media all and (min-width: 600px) {
+  #previewContainer {
+    display: block;
+  }
+
+  #btnTogglePreview {
+    display: none;
+  }
 }
