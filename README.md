@@ -36,6 +36,6 @@ LinkedIn - https://www.linkedin.com/in/josuecedeno/
 
 ## Screenshot
 
-<img width="367" alt="screen-shot" src="https://user-images.githubusercontent.com/47830532/93544001-94ddf580-f922-11ea-959e-5dd505a2f6aa.png">
+<img width="367" alt="screen-shot" src="https://user-images.githubusercontent.com/47830532/93544079-c5be2a80-f922-11ea-9bfc-c194563a3136.png">
 
 
