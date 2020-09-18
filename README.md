@@ -1,6 +1,6 @@
-# Mintbean.io - JS Hackathon - untitled - Paint
+# Mintbean.io - JS Hackathon - Git Your #Markdown
 
-Mintbean.io - JS Hackathon 1 (Sep 14, 2020)
+Mintbean.io - JS Hackathon 1 (Sep 16, 2020)
 
 ## Objective
 
