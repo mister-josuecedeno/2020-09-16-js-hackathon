@@ -35,5 +35,7 @@ Twitter - https://twitter.com/josue_cedeno
 LinkedIn - https://www.linkedin.com/in/josuecedeno/
 
 ## Screenshot
-<img width="367" alt="instructions" src="https://user-images.githubusercontent.com/47830532/93543820-2731c980-f922-11ea-9385-14f510394588.png">
+
+<img width="367" alt="screen-shot" src="https://user-images.githubusercontent.com/47830532/93544001-94ddf580-f922-11ea-959e-5dd505a2f6aa.png">
+
 
