@@ -2,6 +2,9 @@
 
 Mintbean.io - JS Hackathon 1 (Sep 16, 2020)
 
+## Demo
+https://mister-josuecedeno.github.io/2020-09-16-js-hackathon/
+
 ## Objective
 
 Build a markdown editor using HTML, CSS, and Javascript
